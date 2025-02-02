@@ -9,7 +9,7 @@ Manjie Xu*, Xinyi Yang*, Wei Liang✉, Chi Zhang✉ , Yixin Zhu✉
 <a href='https://sites.google.com/view/personalized-planning/home'>
   <img src='https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
 </a> 
-<a href='https://vimeo.com/878540519'>
+<a href='https://player.vimeo.com/video/1052700883?h=dfd0c7152d'>
   <img src='https://img.shields.io/badge/Project-Demo-red?style=plastic&logo=Youtube&logoColor=red' alt='Project Page'>
 </a>
 
