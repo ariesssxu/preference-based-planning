@@ -1,0 +1,149 @@
+Subtasks: {
+  Cook: {
+    food
+  },
+  Wash: {
+    food,
+    tools,
+    toys,
+    clothes, 
+    bottles,
+  },
+  Clean: {
+    furniture
+  },
+  Pour: {
+    bottles
+  },
+  PickAndPlace: {
+    food,
+    tools,
+    toys,
+    clothes,
+    bottles
+  }
+}
+
+ObjectInfo: {
+  food: {
+    apple,
+    bell_pepper,
+    eggplant,
+    banana,
+    orange,
+    potato,
+    chicken,
+    steak,
+  },
+  tools: {
+    keyboard,
+    baking_sheet,
+    teacup,
+    paper_cup,
+    coffee_cup,
+    wineglass,
+    water_glass,
+    bowl,
+    mixing_bowl,
+    sponge,
+    tablefork,
+    saucer
+  },
+  toys: {
+    beach_toy,
+    toy_car,
+    toy_dice,
+    toy_train
+  },
+  clothes: {
+    t_shirt,
+    skirt,
+    pants,
+    sock,
+    sandal,
+    necktie
+  },
+  bottles: {
+    beer_bottle: {contain: ["beer", "ginger_beer"]},
+    cola_bottle: {contain: ["cola"]},
+    water_bottle: {contain: ["water"]},
+    soda_water_bottle: {contain: ["water", "soda_water"]},
+    vodka_bottle: {contain: ["vodka", "wine", "red_wine", "white_wine"]},
+    whiskey_bottle: {contain: ["whiskey", "vodka", "wine", "red_wine", "white_wine"]},
+    lemonade_bottle: {contain: ["lemonade", "lemon_juice"]},
+    lemon_juice_bottle: {contain: ["lamonade", "lemon_juice"]},
+    lime_juice_bottle: {contain: ["lime_juice"]}
+  }
+}
+
+SceneObjects: {
+  Beechwood_0_int: {
+    "carving_knife": {model: "alekva", pos: [-7.658031940460205, -4.346017360687256, 0.8807908701896667], pre_recep: "countertop_tpuwys_2"},
+    "plate" : {model: "itoeew", pos: [-5.269575119018555, -1.6184298992156982, 0.903134286403656], pre_recep: "countertop_tpuwys_0"},
+    "mug": {model: "fapsrj", pos: [-5.054899169925001, -3.98634741211, 0.884134286403656], pre_recep: "countertop_tpuwys_6"},
+  },
+  Benevolence_1_int: {
+    "carving_knife": {model: "alekva", pos: [1.1078345775604248, 1.5284022092819214, 0.9093632507324219], pre_recep: "countertop_tpuwys_2"},
+    "plate" : {model: "itoeew", pos: [0.3945550927577002, 1.519298889639466, 0.9293632507324219], pre_recep: "countertop_tpuwys_1"},
+    "mug": {model: "fapsrj", pos: [0.20455229970466282, -0.5556479370210349, 0.9293632507324219], pre_recep: "countertop_tpuwys_2"},
+  },
+  Ihlen_1_int: {
+    "carving_knife": {model: "alekva", pos: [-4.8744562988300006, 5.589133056639999, 0.9307908701896667], pre_recep: "countertop_tpuwys_4"},
+    "plate" : {model: "itoeew", pos: [-2.36945968628, 3.519345947265, 0.923134286403656], pre_recep: "countertop_tpuwys_5"},
+    "mug": {model: "fapsrj", pos: [-1.36945968628, 3.519345947265, 0.923134286403656], pre_recep: "countertop_tpuwys_5"},
+  },
+  Pomaria_1_int: {
+    "carving_knife": {model: "alekva", pos: [-4.231898307800293, -2.7845723628997803, 0.9311456489562988], pre_recep: "countertop_tpuwys_3"},
+    "plate" : {model: "itoeew", pos: [-4.519793945310018, -1.422959030628694, 0.930799865725], pre_recep: "countertop_tpuwys_2"},
+    "mug": {model: "fapsrj", pos: [0.03519791304837888, 0.6493060333406012, 0.9307998661420282], pre_recep: "countertop_tpuwys_0"},
+  },
+  Rs_int: {
+    "carving_knife": {model: "alekva", pos: [-1.80497244263, 1.5344866943350002, 1.0711456489562988], pre_recep: "countertop_tpuwys_0"},
+    "plate" : {model: "itoeew", pos: [-0.30497244263, 1.5344866943350002, 1.0711456489562988], pre_recep: "countertop_tpuwys_0"},
+    "mug": {model: "fapsrj", pos: [-0.47626304626464844, -1.219603180885315, 0.45633601427078247], pre_recep: "coffee_table_fqluyq_0"},
+  },
+  Wainscott_0_int: {
+    "carving_knife": {model: "alekva", pos: [7.26580286026001, 9.310876846313477, 0.9247939991950989], pre_recep: "countertop_tpuwys_3"},
+    "plate" : {model: "itoeew", pos: [7.094392578130001, 11.58000195312992, 0.9303154907250001], pre_recep: "countertop_tpuwys_2"},
+    "mug": {model: "fapsrj", pos: [4.19499829102, 10.599020996095, 0.930315490725], pre_recep: "countertop_tpuwys_6"},
+  }
+}
+
+SceneInfo: {
+  Beechwood_0_int: {
+    container: ["bottom_cabinet_immwzb_1", "bottom_cabinet_nddvba_0", "bottom_cabinet_rvpunw_0", "bottom_cabinet_immwzb_0", "bottom_cabinet_qacthv_0", "bottom_cabinet_no_top_qohxjq_0", "bottom_cabinet_no_top_qohxjq_1", "breakfast_table_skczfi_1", "breakfast_table_skczfi_0", "breakfast_table_skczfi_2", "breakfast_table_uhrsex_0", "coffee_table_qlmqyy_0", "shelf_owvfik_0", "shelf_owvfik_1", "countertop_tpuwys_3", "countertop_tpuwys_4", "countertop_tpuwys_1", "countertop_tpuwys_2"],
+    cooker: ["microwave_bfbeeb_0"],
+    sink: ["sink_czyfhq_0", "sink_ksecxq_0", "sink_zexzrc_0"],
+    funiture: ["armchair_bslhmj_0", "armchair_vzhxuf_0", "bottom_cabinet_qacthv_0", "bottom_cabinet_immwzb_1", "bottom_cabinet_slgzfc_0", "bottom_cabinet_rvpunw_0", "bottom_cabinet_nddvba_0", "bottom_cabinet_immwzb_0", "breakfast_table_skczfi_1", "breakfast_table_skczfi_2", "breakfast_table_skczfi_0", "breakfast_table_uhrsex_0", "coffee_table_qlmqyy_0", "shelf_owvfik_0", "shelf_owvfik_1", "straight_chair_dmcixv_2", "straight_chair_vkgbbl_2", "countertop_tpuwys_1", "countertop_tpuwys_3"]
+  },
+  Benevolence_1_int: {
+    container: ["countertop_tpuwys_3", "countertop_tpuwys_4", "shelf_owvfik_1"],
+    cooker: ["microwave_bfbeeb_0"],
+    sink: ["sink_czyfhq_0"],
+    funiture: ["breakfast_table_idnnmz_0", "countertop_tpuwys_3", "countertop_tpuwys_4", "shelf_owvfik_0", "shelf_owvfik_1", "shelf_owvfik_2", "straight_chair_eospnr_0", "straight_chair_pmpwwi_2"]
+  },
+  Ihlen_1_int: {
+    container: ["bottom_cabinet_no_top_bmsclc_0", "bottom_cabinet_no_top_qohxjq_0", "bottom_cabinet_no_top_qohxjq_1", "breakfast_table_skczfi_1", "breakfast_table_uhrsex_0", "coffee_table_gcollb_0", "countertop_tpuwys_2"],
+    cooker: ["oven_wuinhm_0"],
+    sink: ["sink_czyfhq_0", "sink_ksecxq_0"],
+    funiture: ["armchair_bslhmj_0", "armchair_tcxiue_0", "bottom_cabinet_slgzfc_1", "coffee_table_gcollb_0", "countertop_tpuwys_4", "countertop_tpuwys_5", "straight_chair_enuago_0", "straight_chair_hwpixe_0", "straight_chair_pmpwwi_3"]
+  },
+  Pomaria_1_int: {
+    container: ["bottom_cabinet_no_top_qohxjq_0", "bottom_cabinet_no_top_qohxjq_1", "breakfast_table_dnsjnv_0", "breakfast_table_uhrsex_0", "coffee_table_gcollb_0", "coffee_table_gpkbiw_0", "countertop_tpuwys_1", "countertop_tpuwys_6", "shelf_owvfik_0", "shelf_owvfik_1"],
+    cooker: ["oven_fexqbj_0", "oven_fexqbj_1", "oven_fexqbj_2", "microwave_bfbeeb_0"],
+    sink: ["sink_zexzrc_1"],
+    funiture: ["armchair_vzhxuf_0", "armchair_vzhxuf_1", "breakfast_table_dnsjnv_0", "breakfast_table_uhrsex_0", "coffee_table_gcollb_0", "coffee_table_gpkbiw_0", "countertop_tpuwys_1", "countertop_tpuwys_4", "countertop_tpuwys_5", "countertop_tpuwys_6", "shelf_owvfik_0", "shelf_owvfik_1", "straight_chair_pmpwwi_0", "straight_chair_pmpwwi_1"]
+  },
+  Rs_int: {
+    container: ["bottom_cabinet_bamfsz_0", "bottom_cabinet_slgzfc_0", "breakfast_table_skczfi_0", "breakfast_table_skczfi_1", "shelf_owvfik_0"],
+    cooker: ["oven_wuinhm_0"],
+    sink: ["sink_zexzrc_0"],
+    funiture: ["breakfast_table_skczfi_0", "breakfast_table_skczfi_1", "shelf_owvfik_0", "straight_chair_amgwaw_0", "straight_chair_amgwaw_1", "straight_chair_amgwaw_2"]
+  },
+  Wainscott_0_int: {
+    container: ["bottom_cabinet_no_top_qohxjq_0", "bottom_cabinet_no_top_qohxjq_1", "bottom_cabinet_no_top_qohxjq_2", "breakfast_table_skczfi_0", "breakfast_table_dnsjnv_1", "breakfast_table_skczfi_3", "breakfast_table_skczfi_2", "coffee_table_gpkbiw_1", "coffee_table_gpkbiw_0", "coffee_table_qlmqyy_1", "coffee_table_qlmqyy_0", "shelf_owvfik_0", "countertop_tpuwys_7", "countertop_tpuwys_5"],
+    cooker: ["oven_fexqbj_0", "oven_fexqbj_1", "stove_igwqpj_0"],
+    sink: ["sink_czyfhq_0", "sink_czyfhq_1", "sink_zexzrc_0"],
+    funiture: ["armchair_bslhmj_0", "armchair_xpcheg_0", "breakfast_table_skczfi_0", "breakfast_table_skczfi_2", "breakfast_table_skczfi_3", "coffee_table_gpkbiw_0", "coffee_table_gpkbiw_1", "coffee_table_qlmqyy_0", "coffee_table_qlmqyy_1", "countertop_tpuwys_0", "countertop_tpuwys_1", "countertop_tpuwys_5"]
+  }
+}

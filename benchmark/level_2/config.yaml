@@ -1,0 +1,168 @@
+Subtasks: {
+  Cook: {
+    food
+  },
+  Clean: {
+    furniture
+  },
+  Pour: {
+    bottles
+  },
+  PickAndPlace: {
+    food,
+    tools,
+    toys,
+    clothes,
+    bottles
+  },
+  Wash: {
+    food,
+    tools,
+    toys,
+    clothes, 
+    bottles,
+  },
+}
+
+ObjectInfo: {
+  food: {
+    apple,
+    bell_pepper,
+    eggplant,
+    banana,
+    orange,
+    potato,
+    chicken,
+    steak,
+  },
+  tools: {
+    keyboard,
+    teacup,
+    paper_cup,
+    coffee_cup,
+    wineglass,
+    water_glass,
+    bowl,
+    mixing_bowl,
+    sponge,
+    saucer
+  },
+  toys: {
+    beach_toy,
+    toy_car,
+    toy_dice,
+    toy_train
+  },
+  clothes: {
+    cap,
+    hat,
+    scarf,
+    kid_glove,
+    skirt,
+    sock,
+    sandal,
+    necktie
+  },
+  bottles: {
+    beer_bottle: {contain: ["beer", "ginger_beer"]},
+    cola_bottle: {contain: ["cola"]},
+    water_bottle: {contain: ["water"]},
+    soda_water_bottle: {contain: ["water", "soda_water"]},
+    vodka_bottle: {contain: ["vodka", "wine", "red_wine", "white_wine"]},
+    whiskey_bottle: {contain: ["whiskey", "vodka", "wine", "red_wine", "white_wine"]},
+    lemonade_bottle: {contain: ["lemonade", "lemon_juice"]},
+    lemon_juice_bottle: {contain: ["lamonade", "lemon_juice"]},
+    lime_juice_bottle: {contain: ["lime_juice"]}
+  }
+}
+
+SceneInfo: {
+  Beechwood_0_int: {
+    container: ["bottom_cabinet_nddvba_0", "bottom_cabinet_immwzb_1", "bottom_cabinet_rvpunw_0", "bottom_cabinet_qacthv_0", "bottom_cabinet_no_top_qohxjq_0", "bottom_cabinet_no_top_qohxjq_1", "breakfast_table_skczfi_1", "breakfast_table_skczfi_0", "breakfast_table_skczfi_2", "breakfast_table_uhrsex_0", "coffee_table_qlmqyy_0", "shelf_owvfik_0", "shelf_owvfik_1", "countertop_tpuwys_3", "countertop_tpuwys_4", "countertop_tpuwys_1", "countertop_tpuwys_2", "countertop_tpuwys_0", "countertop_tpuwys_6"],
+    surface: ["breakfast_table_skczfi_0", "breakfast_table_skczfi_2", "breakfast_table_uhrsex_0", "coffee_table_qlmqyy_0", "countertop_tpuwys_3", "countertop_tpuwys_4", "countertop_tpuwys_1", "countertop_tpuwys_2", "countertop_tpuwys_0", "countertop_tpuwys_6"],
+    cooker: ["microwave_bfbeeb_0"],
+    sink: ["sink_czyfhq_0", "sink_ksecxq_0"],
+    funiture: ["armchair_bslhmj_0", "armchair_vzhxuf_0", "bottom_cabinet_qacthv_0", "bottom_cabinet_immwzb_1", "bottom_cabinet_slgzfc_0", "bottom_cabinet_rvpunw_0", "bottom_cabinet_nddvba_0", "bottom_cabinet_immwzb_0", "breakfast_table_skczfi_1", "breakfast_table_skczfi_2", "breakfast_table_skczfi_0", "breakfast_table_uhrsex_0", "coffee_table_qlmqyy_0", "shelf_owvfik_0", "shelf_owvfik_1", "straight_chair_dmcixv_2", "straight_chair_vkgbbl_2", "countertop_tpuwys_1", "countertop_tpuwys_3", "countertop_tpuwys_0", "countertop_tpuwys_6"]
+  },
+  Benevolence_1_int: {
+    container: ["countertop_tpuwys_3", "countertop_tpuwys_4", "shelf_owvfik_1", "countertop_tpuwys_1", "countertop_tpuwys_2"],
+    surface: ["countertop_tpuwys_3", "countertop_tpuwys_4", "countertop_tpuwys_1", "countertop_tpuwys_2"],
+    cooker: ["microwave_bfbeeb_0"],
+    sink: ["sink_czyfhq_0"],
+    funiture: ["breakfast_table_idnnmz_0", "countertop_tpuwys_3", "countertop_tpuwys_4", "shelf_owvfik_0", "shelf_owvfik_1", "shelf_owvfik_2", "straight_chair_eospnr_0", "straight_chair_pmpwwi_2", "countertop_tpuwys_1", "countertop_tpuwys_2"]
+  },
+  Ihlen_1_int: {
+    container: ["bottom_cabinet_no_top_qohxjq_0", "bottom_cabinet_no_top_qohxjq_1", "coffee_table_gcollb_0", "countertop_tpuwys_2", "countertop_tpuwys_5"],
+    surface: ["coffee_table_gcollb_0", "countertop_tpuwys_2", "countertop_tpuwys_5"],
+    cooker: ["oven_wuinhm_0"],
+    sink: ["sink_czyfhq_0", "sink_ksecxq_0"],
+    funiture: ["armchair_bslhmj_0", "armchair_tcxiue_0", "bottom_cabinet_slgzfc_1", "coffee_table_gcollb_0", "countertop_tpuwys_4", "countertop_tpuwys_5", "straight_chair_enuago_0", "straight_chair_hwpixe_0", "straight_chair_pmpwwi_3"]
+  },
+  Pomaria_1_int: {
+    container: ["bottom_cabinet_no_top_qohxjq_0", "bottom_cabinet_no_top_qohxjq_1", "breakfast_table_dnsjnv_0", "breakfast_table_uhrsex_0", "coffee_table_gcollb_0", "coffee_table_gpkbiw_0", "countertop_tpuwys_1", "countertop_tpuwys_6", "shelf_owvfik_0", "shelf_owvfik_1", "countertop_tpuwys_2", "countertop_tpuwys_0"],
+    surface: ["breakfast_table_dnsjnv_0", "breakfast_table_uhrsex_0", "coffee_table_gcollb_0", "coffee_table_gpkbiw_0", "countertop_tpuwys_1", "countertop_tpuwys_6", "countertop_tpuwys_2", "countertop_tpuwys_0"],
+    cooker: ["oven_fexqbj_0", "oven_fexqbj_1", "microwave_bfbeeb_0"],
+    sink: ["sink_zexzrc_1"],
+    funiture: ["armchair_vzhxuf_0", "armchair_vzhxuf_1", "breakfast_table_dnsjnv_0", "breakfast_table_uhrsex_0", "coffee_table_gcollb_0", "coffee_table_gpkbiw_0", "countertop_tpuwys_1", "countertop_tpuwys_4", "countertop_tpuwys_5", "countertop_tpuwys_6", "shelf_owvfik_0", "shelf_owvfik_1", "straight_chair_pmpwwi_0", "straight_chair_pmpwwi_1", "countertop_tpuwys_2", "countertop_tpuwys_0"]
+  },
+  Wainscott_0_int: {
+    container: ["bottom_cabinet_no_top_qohxjq_0", "bottom_cabinet_no_top_qohxjq_1", "bottom_cabinet_no_top_qohxjq_2", "breakfast_table_skczfi_0", "breakfast_table_dnsjnv_1", "breakfast_table_skczfi_3", "breakfast_table_skczfi_2", "coffee_table_gpkbiw_1", "coffee_table_gpkbiw_0", "coffee_table_qlmqyy_1", "coffee_table_qlmqyy_0", "countertop_tpuwys_7", "countertop_tpuwys_5", "countertop_tpuwys_2", "countertop_tpuwys_6"],
+    surface: ["breakfast_table_skczfi_0", "breakfast_table_dnsjnv_1", "breakfast_table_skczfi_3", "breakfast_table_skczfi_2", "coffee_table_gpkbiw_1", "coffee_table_gpkbiw_0", "coffee_table_qlmqyy_1", "coffee_table_qlmqyy_0", "countertop_tpuwys_7", "countertop_tpuwys_5", "countertop_tpuwys_2", "countertop_tpuwys_6"],
+    cooker: ["oven_fexqbj_0", "stove_igwqpj_0"],
+    sink: ["sink_czyfhq_0", "sink_czyfhq_1", "sink_zexzrc_0"],
+    funiture: ["armchair_bslhmj_0", "armchair_xpcheg_0", "breakfast_table_skczfi_0", "breakfast_table_skczfi_2", "breakfast_table_skczfi_3", "coffee_table_gpkbiw_0", "coffee_table_gpkbiw_1", "coffee_table_qlmqyy_0", "coffee_table_qlmqyy_1", "countertop_tpuwys_0", "countertop_tpuwys_1", "countertop_tpuwys_5", "countertop_tpuwys_2", "countertop_tpuwys_6"]
+  },
+  house_double_floor_lower: {
+    container: ["bottom_cabinet_rhdbzv_0", "breakfast_table_xftrki_0", "coffee_table_koagbh_0"],
+    surface: ["breakfast_table_xftrki_0", "coffee_table_koagbh_0"],
+    cooker: ["stove_mdanhg_0"],
+    sink: ["sink_egwapq_0"],
+    funiture: ["armchair_hgunnf_0", "armchair_hgunnf_1", "armchair_uofiqj_0", "armchair_uofiqj_1", "armchair_zdhnyg_0", "breakfast_table_xftrki_0", "coffee_table_koagbh_0"]
+  },
+  house_single_floor: {
+    container: ["breakfast_table_rhjoby_0", "coffee_table_wgtaip_0", "coffee_table_qtwqqb_0", "coffee_table_rlsebe_0", "desk_nbpuns_0"],
+    surface: ["breakfast_table_rhjoby_0", "coffee_table_wgtaip_0", "coffee_table_qtwqqb_0", "coffee_table_rlsebe_0", "desk_nbpuns_0"],
+    cooker: ["stove_mjvqii_0"],
+    sink: ["sink_upwldu_0", "sink_qnequy_0"],
+    funiture: ["armchair_jzthdw_1", "armchair_qhcrgb_1", "armchair_qhcrgb_2", "armchair_jzthdw_0", "armchair_qhcrgb_5", "armchair_qhcrgb_8", "armchair_qhcrgb_6", "armchair_qhcrgb_9", "armchair_qhcrgb_3", "armchair_qhcrgb_0", "armchair_qhcrgb_4", "armchair_qhcrgb_7", "breakfast_table_rhjoby_0", "coffee_table_rlsebe_0", "coffee_table_wgtaip_0", "straight_chair_jgoolz_5", "countertop_rkgjer_0", "desk_nbpuns_0"]
+  },
+  Merom_1_int: {
+    container: ["bottom_cabinet_slgzfc_2", "breakfast_table_skczfi_0", "coffee_table_fqluyq_0", "shelf_vgzdul_0", "shelf_owvfik_0"],
+    surface: ["breakfast_table_skczfi_0", "coffee_table_fqluyq_0"],
+    cooker: ["stove_rgpphy_0"],
+    sink: ["sink_czyfhq_0", "sink_xiybkb_0"],
+    funiture: ["armchair_bslhmj_0", "armchair_tcxiue_0", "shelf_owvfik_0", "breakfast_table_skczfi_0", "coffee_table_fqluyq_0"]
+  },
+  restaurant_brunch: {
+    container: ["breakfast_table_hmzwxn_2", "breakfast_table_hmzwxn_4", "breakfast_table_hmzwxn_0", "breakfast_table_hmzwxn_3", "breakfast_table_hmzwxn_6", "breakfast_table_hmzwxn_5", "breakfast_table_hmzwxn_1", "breakfast_table_hmzwxn_7", "coffee_table_zisekv_1", "coffee_table_zisekv_0"],
+    surface: ["breakfast_table_hmzwxn_2", "breakfast_table_hmzwxn_4", "breakfast_table_hmzwxn_0", "breakfast_table_hmzwxn_3", "breakfast_table_hmzwxn_6", "breakfast_table_hmzwxn_5", "breakfast_table_hmzwxn_1", "breakfast_table_hmzwxn_7", "coffee_table_zisekv_1", "coffee_table_zisekv_0"],
+    cooker: ["stove_xspxzg_0"],
+    sink: ["sink_ekkwsy_1"],
+    funiture: ["armchair_rtbsof_2", "armchair_jdtdpa_2", "armchair_rtbsof_3", "armchair_hdibix_0", "armchair_qyntri_1", "armchair_ukuwuu_7", "armchair_ukuwuu_4", "armchair_rtbsof_1", "armchair_rtbsof_6", "armchair_hicyww_1", "armchair_jdtdpa_0", "armchair_rtbsof_4", "armchair_rtbsof_5", "armchair_ukuwuu_2", "armchair_hicyww_0", "armchair_ukuwuu_5", "armchair_ukuwuu_1", "armchair_rtbsof_0", "armchair_ukuwuu_6", "breakfast_table_hmzwxn_3", "breakfast_table_hmzwxn_6", "breakfast_table_hmzwxn_5", "breakfast_table_hmzwxn_7", "breakfast_table_hmzwxn_2", "coffee_table_zisekv_1", "shelf_dvnwfa_0", "breakfast_table_hmzwxn_0", "coffee_table_zisekv_0"]
+  },
+  restaurant_cafeteria: {
+    container: ["breakfast_table_bhszwe_3", "breakfast_table_bhszwe_2", "breakfast_table_bhszwe_4", "breakfast_table_bhszwe_1", "breakfast_table_bhszwe_11", "breakfast_table_bhszwe_6", "breakfast_table_bhszwe_13", "breakfast_table_bhszwe_0", "breakfast_table_bhszwe_12", "breakfast_table_bhszwe_7", "breakfast_table_bhszwe_8", "breakfast_table_bhszwe_9", "breakfast_table_bhszwe_10"],
+    surface: ["breakfast_table_bhszwe_3", "breakfast_table_bhszwe_2", "breakfast_table_bhszwe_4", "breakfast_table_bhszwe_1", "breakfast_table_bhszwe_11", "breakfast_table_bhszwe_6", "breakfast_table_bhszwe_13", "breakfast_table_bhszwe_0", "breakfast_table_bhszwe_12", "breakfast_table_bhszwe_8", "breakfast_table_bhszwe_9", "breakfast_table_bhszwe_10"],
+    cooker: ["stove_urgtyy_0"],
+    sink: ["sink_kyxynl_3", "sink_kyxynl_1", "sink_kyxynl_4"],
+    funiture: ["straight_chair_dzrlfn_3", "straight_chair_qkyfxr_35", "straight_chair_qkyfxr_50", "straight_chair_qkyfxr_46", "straight_chair_dzrlfn_21", "straight_chair_dzrlfn_18", "straight_chair_qkyfxr_0", "straight_chair_qkyfxr_22", "straight_chair_qkyfxr_7", "straight_chair_qkyfxr_43", "straight_chair_dzrlfn_0", "straight_chair_qkyfxr_48", "straight_chair_qkyfxr_28", "straight_chair_dzrlfn_9", "straight_chair_qkyfxr_36", "straight_chair_qkyfxr_21", "straight_chair_dzrlfn_26", "straight_chair_qkyfxr_45", "straight_chair_dzrlfn_5", "straight_chair_dzrlfn_10", "straight_chair_dzrlfn_12", "straight_chair_qkyfxr_49", "straight_chair_qkyfxr_25", "straight_chair_dzrlfn_22", "straight_chair_qkyfxr_8", "straight_chair_qkyfxr_12", "straight_chair_dzrlfn_17", "straight_chair_qkyfxr_27", "straight_chair_qkyfxr_4", "straight_chair_qkyfxr_47", "straight_chair_dzrlfn_13", "straight_chair_qkyfxr_9", "straight_chair_qkyfxr_44", "straight_chair_qkyfxr_29", "breakfast_table_bhszwe_3", "breakfast_table_bhszwe_2", "breakfast_table_bhszwe_4", "breakfast_table_bhszwe_1", "breakfast_table_bhszwe_11", "breakfast_table_bhszwe_6", "breakfast_table_bhszwe_13", "breakfast_table_bhszwe_12", "breakfast_table_bhszwe_7", "breakfast_table_bhszwe_8", "breakfast_table_bhszwe_9", "breakfast_table_bhszwe_0", "breakfast_table_bhszwe_10"]
+  },
+  Rs_garden: {
+    container: ["bottom_cabinet_slgzfc_0", "coffee_table_puwazg_0", "coffee_table_fqluyq_0", "shelf_owvfik_0", "countertop_tpuwys_0"],
+    surface: ["coffee_table_puwazg_0", "coffee_table_fqluyq_0", "countertop_tpuwys_0"],
+    cooker: ["oven_wuinhm_0", "microwave_abzvij_0"],
+    sink: ["sink_zexzrc_0", "sink_ksecxq_0"],
+    funiture: ["coffee_table_puwazg_0", "shelf_owvfik_0"]
+  },
+  Wainscott_0_garden: {
+    container: ["bottom_cabinet_no_top_qohxjq_2", "bottom_cabinet_no_top_qohxjq_1", "bottom_cabinet_no_top_bmsclc_0", "bottom_cabinet_no_top_pluwfl_1", "bottom_cabinet_no_top_qohxjq_0", "breakfast_table_skczfi_2", "coffee_table_jkhlnp_0", "coffee_table_gpkbiw_1", "coffee_table_qlmqyy_0", "coffee_table_gpkbiw_0", "coffee_table_qlmqyy_1", "shelf_owvfik_0", "countertop_tpuwys_3", "countertop_tpuwys_7", "countertop_tpuwys_5", "countertop_tpuwys_2", "countertop_tpuwys_6"],
+    surface: ["breakfast_table_skczfi_2", "coffee_table_jkhlnp_0", "coffee_table_gpkbiw_1", "coffee_table_qlmqyy_0", "coffee_table_gpkbiw_0", "coffee_table_qlmqyy_1", "countertop_tpuwys_3", "countertop_tpuwys_7", "countertop_tpuwys_5", "countertop_tpuwys_2", "countertop_tpuwys_6"],
+    cooker: ["oven_fexqbj_0", "stove_igwqpj_0"],
+    sink: ["sink_czyfhq_1", "sink_ksecxq_0"],
+    funiture: ["armchair_xpcheg_0", "armchair_bslhmj_0", "breakfast_table_skczfi_2", "coffee_table_qlmqyy_1", "coffee_table_jkhlnp_0", "coffee_table_qlmqyy_0", "coffee_table_gpkbiw_0", "coffee_table_gpkbiw_1", "shelf_owvfik_0", "straight_chair_amgwaw_0", "countertop_tpuwys_2", "countertop_tpuwys_5", "countertop_tpuwys_6", "countertop_tpuwys_7", "countertop_tpuwys_3", "coffee_table_jkhlnp_0"]
+  }
+}
+
+Sequence_Preferences: {
+  name: ['Cook_Pick_And_Place_Clean', 'Clean_Pour', 'Pour_Cook_Wash', 'Wash_Cook_Pour', 'Pour_Cook_Pick_And_Place', 'Clean_Cook_Wash', 'Cook_Pour_Pick_And_Place', 'Clean_Pour_Pick_And_Place', 'Pick_And_Place_Wash_Clean', 'Pour_Wash', 'Pick_And_Place_Wash_Pour', 'Clean_Pick_And_Place_Wash', 'Pick_And_Place_Pour', 'Wash_Clean', 'Wash_Cook_Pick_And_Place', 'Pour_Clean_Cook', 'Wash_Clean_Cook', 'Pour_Pick_And_Place_Wash', 'Cook_Pick_And_Place', 'Clean_Wash_Pour', 'Pick_And_Place_Cook_Wash', 'Wash_Cook_Clean', 'Wash_Cook', 'Clean_Pour_Wash', 'Clean_Pick_And_Place_Pour', 'Cook_Clean_Wash', 'Pour_Wash_Clean', 'Cook_Pick_And_Place_Wash', 'Clean_Wash_Pick_And_Place', 'Wash_Clean_Pour', 'Pick_And_Place_Pour_Clean', 'Pick_And_Place_Pour_Cook', 'Pour_Cook_Clean', 'Pour_Pick_And_Place', 'Cook_Pour', 'Cook_Pour_Wash', 'Pick_And_Place_Cook', 'Pick_And_Place_Wash_Cook', 'Wash_Pick_And_Place_Cook', 'Clean_Pick_And_Place_Cook', 'Pick_And_Place_Wash', 'Cook_Wash_Pour', 'Pick_And_Place_Clean', 'Wash_Pick_And_Place_Pour', 'Wash_Pour', 'Clean_Wash_Cook', 'Cook_Clean_Pour', 'Pour_Wash_Pick_And_Place', 'Wash_Pick_And_Place', 'Pour_Clean_Pick_And_Place', 'Wash_Pour_Clean', 'Cook_Wash', 'Wash_Pour_Pick_And_Place', 'Clean_Cook_Pour', 'Pour_Pick_And_Place_Clean', 'Pick_And_Place_Clean_Cook', 'Pick_And_Place_Cook_Pour', 'Cook_Clean', 'Cook_Pour_Clean', 'Clean_Pick_And_Place', 'Cook_Clean_Pick_And_Place', 'Cook_Wash_Clean', 'Pick_And_Place_Cook_Clean', 'Cook_Pick_And_Place_Pour', 'Pour_Pick_And_Place_Cook', '', 'Pour_Cook', 'Pour_Clean', 'Pick_And_Place_Clean_Pour', 'Wash_Clean_Pick_And_Place', 'Pour_Wash_Cook', 'Pour_Clean_Wash', 'Clean_Cook_Pick_And_Place', 'Clean_Cook', 'Cook_Wash_Pick_And_Place', 'Pick_And_Place_Clean_Wash', 'Clean_Pour_Cook', '', 'Pick_And_Place_Pour_Wash', 'Wash_Pour_Cook', 'Wash_Pick_And_Place_Clean', 'Clean_Wash'] 
+}

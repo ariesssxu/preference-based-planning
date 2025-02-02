@@ -1,0 +1,90 @@
+# define preferences related to the task
+Rearrangement:
+- Level0: # All objects in the same room
+    - food in kitchen
+    - food in living_room
+    - food in corridor
+    - tools in living_room
+    - tools in private_office
+    - tools in corridor
+    - kitchenware in living_room
+    - kitchenware in kitchen
+    - kitchenware in storage_room
+    - clothes in bedroom
+    - clothes in bathroom
+    - clothes in storage_room
+    - toys in playroom
+    - toys in storage_room
+    - toys in childs_room
+- Level1: # All objects on a desk/shelf/bed/fridge
+    - food on countertop
+    - food in fridge
+    - tools on countertop
+    - tools on shelf
+    - kitchenware on countertop
+    - kitchenware on shelf
+    - toys on countertop
+    - toys on bed
+- Level2: # All objects in the same desk/shelf/bed/fridge
+    - food on countertop # pass
+    - food in fridge # pass
+    - food in microwave
+    - food in sink
+    - tools on countertop
+    - tools on bed
+    - tools in sink
+    - tools on sofa
+    - kitchenware on countertop # pass
+    - kitchenware in shelf
+    - kitchenware in sink
+    - toys on countertop # pass
+    - toys on bed
+    - toys on sofa
+    - clothes on bed
+    - clothes in shelf
+    - clothes in sink
+    - clothes on sofa
+    - clothes in trash_can
+
+Scene_Config: {
+    Rearrange: {
+        "food in kitchen": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int'],
+        "food in living_room": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int'],
+        "food in corridor": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Ihlen_1_int', 'Ihlen_1_int', 'office_large', 'office_large', 'office_large', 'Pomaria_1_int', 'Benevolence_0_int', 'grocery_store_cafe', 'house_single_floor', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        "tools in living_room": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int'],
+        "tools in private_office": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Beechwood_0_int', 'Pomaria_0_int', 'office_large', 'office_large', 'office_large', 'office_large', 'office_large', 'office_large', 'Pomaria_0_garden'],
+        "tools in corridor": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Ihlen_1_int', 'Ihlen_1_int', 'office_large', 'office_large', 'office_large', 'Pomaria_1_int', 'Benevolence_0_int', 'grocery_store_cafe', 'house_single_floor', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'toys in childs_room': ['Wainscott_1_int', 'Beechwood_1_int', 'Merom_0_int', 'Merom_1_int', 'Beechwood_1_int', 'house_single_floor', 'house_single_floor', 'house_single_floor', 'Merom_0_int'],
+        'toys in playroom': ['Wainscott_1_int', 'Beechwood_1_int', 'Merom_0_int'],
+        'toys in storage_room': ['Wainscott_1_int', 'Merom_0_int', 'Merom_1_int', 'Beechwood_1_int', 'house_single_floor', 'Merom_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'Ihlen_0_int', 'Ihlen_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Beechwood_1_int', 'Beechwood_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int'],
+        "kitchenware in living_room":['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int'],
+        "kitchenware in kitchen": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int'],
+        "kitchenware in storage_room": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Beechwood_0_int', 'Pomaria_0_int', 'office_large', 'office_large', 'office_large', 'office_large', 'office_large', 'office_large', 'Pomaria_0_garden', 'Merom_1_int', 'Pomaria_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Benevolence_2_int', 'house_double_floor_upper', 'house_double_floor_upper', 'Ihlen_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Rs_int', 'house_single_floor', 'Pomaria_0_garden', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'Ihlen_0_int', 'Ihlen_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Beechwood_1_int', 'Beechwood_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int'],
+        "clothes in bedroom": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Beechwood_0_int', 'Pomaria_0_int', 'office_large', 'office_large', 'office_large', 'office_large', 'office_large', 'office_large', 'Pomaria_0_garden', 'Merom_1_int', 'Pomaria_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Benevolence_2_int', 'house_double_floor_upper', 'house_double_floor_upper', 'Ihlen_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Rs_int', 'house_single_floor', 'Pomaria_0_garden', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        "clothes in bathroom": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'restaurant_brunch', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'house_single_floor', 'Merom_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Beechwood_0_int', 'Pomaria_0_int', 'office_large', 'office_large', 'office_large', 'office_large', 'office_large', 'office_large', 'Pomaria_0_garden', 'Merom_1_int', 'Pomaria_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Rs_int', 'house_single_floor', 'Pomaria_0_garden', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'Ihlen_0_int', 'Ihlen_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Beechwood_1_int', 'Beechwood_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Beechwood_0_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Wainscott_1_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'office_large', 'Pomaria_1_int', 'Rs_int', 'Benevolence_0_int', 'grocery_store_cafe', 'house_single_floor', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Pomaria_2_int', 'Wainscott_0_int', 'Wainscott_0_int'],
+        "clothes in storage_room": ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Beechwood_0_int', 'Pomaria_0_int', 'office_large', 'office_large', 'office_large', 'office_large', 'office_large', 'office_large', 'Pomaria_0_garden', 'Merom_1_int', 'Pomaria_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Benevolence_2_int', 'house_double_floor_upper', 'house_double_floor_upper', 'Ihlen_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Rs_int', 'house_single_floor', 'Pomaria_0_garden', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Beechwood_0_int', 'Benevolence_1_int', 'Ihlen_0_int', 'Ihlen_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Beechwood_1_int', 'Beechwood_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int', 'Wainscott_0_int', 'Wainscott_0_int'],
+        'tools on countertop':  ['Beechwood_0_int', 'Benevolence_1_int', 'Ihlen_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Wainscott_0_int'],
+        'tools in shelf': ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'grocery_store_cafe', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'tools in sink': ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'office_large', 'Pomaria_1_int', 'Rs_int', 'Benevolence_0_int', 'grocery_store_cafe', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'tools on bed': ['Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'tools on sofa': ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Beechwood_1_int', 'house_double_floor_upper', 'Ihlen_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Wainscott_0_int'],
+        'kitchenware on countertop': ['Beechwood_0_int', 'Benevolence_1_int', 'Ihlen_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Wainscott_0_int'],
+        'kitchenware in shelf': ['Beechwood_0_int', 'Benevolence_1_int', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'grocery_store_cafe', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'kitchenware on table': ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'office_large', 'Pomaria_1_int', 'Rs_int', 'grocery_store_cafe', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'kitchenware in sink': ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'office_large', 'Pomaria_1_int', 'Rs_int', 'Benevolence_0_int', 'grocery_store_cafe', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'kitchenware in trash_can': ['Merom_1_int', 'Wainscott_1_int', 'Benevolence_2_int', 'office_large', 'Rs_int', 'Benevolence_0_int', 'house_single_floor', 'Merom_0_int'],
+        'clothes on bed': ['Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'clothes in shelf': ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'grocery_store_cafe', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'clothes on sofa': ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Beechwood_1_int', 'house_double_floor_upper', 'Ihlen_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Wainscott_0_int'],
+        'clothes in sink': ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'office_large', 'Pomaria_1_int', 'Rs_int', 'Benevolence_0_int', 'grocery_store_cafe', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'clothes in trash_can': ['Merom_1_int', 'Wainscott_1_int', 'Benevolence_2_int', 'office_large', 'Rs_int', 'Benevolence_0_int', 'house_single_floor', 'Merom_0_int'],
+        'toys on bed': ['Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'toys on countertop': ['Beechwood_0_int', 'Benevolence_1_int', 'Ihlen_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Wainscott_0_int'],
+        'toys in trash_can': ['Merom_1_int', 'Wainscott_1_int', 'Benevolence_2_int', 'office_large', 'Rs_int', 'Benevolence_0_int', 'house_single_floor', 'Merom_0_int'],
+        'food on countertop':  ['Beechwood_0_int', 'Benevolence_1_int', 'Ihlen_0_int', 'Pomaria_0_int', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'Ihlen_1_int', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Wainscott_0_int'],
+        'food in sink': ['Beechwood_0_int', 'Benevolence_1_int', 'house_double_floor_lower', 'Ihlen_0_int', 'Merom_1_int', 'Pomaria_0_int', 'restaurant_brunch', 'Wainscott_1_int', 'Beechwood_1_int', 'Benevolence_2_int', 'house_double_floor_upper', 'Ihlen_1_int', 'office_large', 'Pomaria_1_int', 'Rs_int', 'Benevolence_0_int', 'grocery_store_cafe', 'house_single_floor', 'Merom_0_int', 'Pomaria_0_garden', 'Pomaria_2_int', 'Wainscott_0_int'],
+        'food in microwave': ['Beechwood_0_int', 'Benevolence_1_int', 'Pomaria_1_int', 'Rs_int', 'Wainscott_0_int'],
+        'food in trash_can': ['Merom_1_int', 'Wainscott_1_int', 'Benevolence_2_int', 'office_large', 'Rs_int', 'Benevolence_0_int', 'house_single_floor', 'Merom_0_int'],
+        'food in fridge': ['Beechwood_0_int', 'Benevolence_1_int', 'Merom_1_int', 'restaurant_brunch', 'Ihlen_1_int', 'office_large', 'Pomaria_1_int', 'Rs_int', 'house_single_floor', 'Wainscott_0_int']
+    },
+}

@@ -1,0 +1,17 @@
+move_to_{}
+rotate_to_{}
+open_{}
+close_{}
+pick_{}
+place_{}_on_{}
+place_{}_in_{}
+cut_{}_with_{}
+toggle_on_{}
+toggle_off_{}
+add_water_to_{}_with_{}
+unfold_{}
+cook_{}
+uncover_{}_with_{}
+cover_{}_with_{}
+uncontain_{}_with_{}
+add_{}_to_{}_with_{}

@@ -1,0 +1,45 @@
+Objects: {
+  food: {
+    apple: {room: {kitchen, living_room}, container: {bowl, table}},
+    banana: {room: {kitchen, living_room}, container: {bowl, table}},
+    ice: {room: {kitchen}, container: {bowl}},
+    bottle_of_milk: {room: {private_office}, container: {table}},
+    orange: {room: {kitchen, living_room}, container: {bowl, table}},
+    cupcake: {room: {kitchen}, container: {bowl}},
+    fruitcake: {room: {kitchen}, container: {bowl}},
+    club_sandwich: {room: {kitchen}, container: {bowl}}
+  },
+  tools: {
+    laptop: {room: {living_room, private_office}, container: {table}},
+    key: {room: {living_room}, container: {table}},
+    lamb: {room: {living_room, private_office}, container: {table}},
+    pen: {room: {private_office}, container: {table}},
+    pencil_box: {room: {private_office}, container: {table}},
+    dvd: {room: {living_room}, container: {table}},
+    textbook: {room: {private_office}, container: {table}},
+    zipper: {room: {private_office}, container: {table}}
+  },
+  kitchenware: {
+    beer_glass: {room: {dining_room}, container: {table}},
+    bowl: {room: {dining_room, kitchen}, container: {table}},
+    teacup: {room: {dining_room}, container: {table}},
+    trash_can: {room: {kitchen, dining_room, living_room, private_office, corridor, storage_room}, container: {floor}},
+    water_glass: {room: {dining_room, living_room}, container: {table}},
+    plate: {room: {dining_room}, container: {table}}
+  },
+  toys: {
+    toy_box: {room: {storage_room}, container: {table, floor}},
+    toy_car: {room: {storage_room, living_room}, container: {table, floor}},
+    toy_dice: {room: {storage_room, living_room}, container: {table, floor}},
+    penny: {room: {storage_room, living_room}, container: {table, floor}},
+    toy_train: {room: {storage_room, living_room}, container: {table, floor}},
+  },
+  clothes: {
+    boxers: {room: {bedroom}, container: {table}},
+    t_shirt: {room: {bedroom}, container: {table}},
+    skirt: {room: {bedroom}, container: {table}},
+    sock: {room: {bedroom}, container: {table}},
+    sandal: {room: {bedroom}, container: {floor}},
+    dress: {room: {bedroom}, container: {table}},
+  }
+}
