@@ -3,7 +3,7 @@
 Manjie Xu*, Xinyi Yang*, Wei Liang✉, Chi Zhang✉ , Yixin Zhu✉  
 (* equal contribution, ✉ corresponding authors)  
 
-<a href='https://arxiv.org/abs/2407.07464'>
+<a href='http://arxiv.org/abs/2502.00858'>
   <img src='https://img.shields.io/badge/Paper-Arxiv-green?style=plastic&logo=arXiv&logoColor=green' alt='Paper Arxiv'>
 </a>
 <a href='https://sites.google.com/view/personalized-planning/home'>
