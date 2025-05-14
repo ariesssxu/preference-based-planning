@@ -1,17 +1,6 @@
 # Learning to Plan with Personalized Preferences
 
-Manjie Xu*, Xinyi Yang*, Wei Liang✉, Chi Zhang✉ , Yixin Zhu✉  
-(* equal contribution, ✉ corresponding authors)  
-
-<a href='http://arxiv.org/abs/2502.00858'>
-  <img src='https://img.shields.io/badge/Paper-Arxiv-green?style=plastic&logo=arXiv&logoColor=green' alt='Paper Arxiv'>
-</a>
-<a href='https://sites.google.com/view/personalized-planning/home'>
-  <img src='https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
-</a> 
-<a href='https://player.vimeo.com/video/1052700883?h=dfd0c7152d'>
-  <img src='https://img.shields.io/badge/Project-Demo-red?style=plastic&logo=Youtube&logoColor=red' alt='Project Page'>
-</a>
+Anonymous Submission
 
 <div align=center>
   <img src=./assets/PbP-intro.png />
@@ -87,12 +76,3 @@ We provide all our implementations of the baselines in the `baseline` folder. Fo
 ## Ack
 [NVIDIA Omniverse](https://www.nvidia.com/en-us/omniverse/)  
 [Omnigibson](https://github.com/StanfordVL/OmniGibson)
-
-## Cite us
-```
-@article{xu2024preference,
-  title={Learning to Plan with Personalized Preferences},
-  author={Xu, Manjie and Xinyi Yang and Wei Liang and Chi Zhang and Yixin Zhu},
-  year={2024}
-}
-```
