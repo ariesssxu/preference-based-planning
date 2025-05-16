@@ -70,6 +70,16 @@ cd level_x && python sample.py
 
 where `sample.py` mainly consists the sampling loop, `preference.py` mainly consists the main preference logic, and `task.py` hosts the task environment.
 
+
+We also provide a subset of our sampled dataset at [huggingface](https://huggingface.co/datasets/ariesssxu/pbp). (Note: This dataset is unfiltered and may include some crash demos caused by instability during rendering in Omnigibson. We recommend performing the rendering process independently for optimal results.) 
+
+<div align=center>
+  <img src=./assets/datapoint.png />
+</div>
+A demonstration includes an egocentric video of agent activity, a bird's-eye-view map tracking agent position, and frame-level action annotations. We also provide third-person view recordings for enhanced visualization. 
+
+We prioritize the egocentric perspective for two reasons: 1) it offers a clear view with minimal occlusions, and 2) it aligns with human perception, facilitating transfer to real-world data from head-mounted devices.
+
 ## Baselines
 We provide all our implementations of the baselines in the `baseline` folder. For each baseline, we recommend creating an independent conda environment to avoid conflict. Navigate to each folder to see the install steps.
 
