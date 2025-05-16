@@ -3,7 +3,7 @@
 Anonymous Submission
 
 <div align=center>
-  <img src=./assets/PbP-intro.png />
+  <img src=https://github.com/ariesssxu/preference-based-planning/raw/main/assets/PbP-intro.png>
 </div>
 
 Effective integration of AI agents into daily life requires them to understand and adapt to individual human preferences, particularly in collaborative roles. We develop agents that not only learn preferences from few demonstrations but also learn to adapt their planning strategies based on these preferences.
@@ -61,7 +61,7 @@ python benchmark/examples/pick_and_place.py
 ## Benchmark
 We define human preference in three different levels. We provide code to help sample demos of these preference in different scenes. You can also modify the sampling code to generate more customed demos. 
 <div align=center>
-  <img src=./assets/preferences.png />
+  <img src=https://github.com/ariesssxu/preference-based-planning/raw/main/assets/preferences.png>
 </div>
 
 ```
@@ -74,8 +74,9 @@ where `sample.py` mainly consists the sampling loop, `preference.py` mainly cons
 We also provide a subset of our sampled dataset at [huggingface](https://huggingface.co/datasets/ariesssxu/pbp). (Note: This dataset is unfiltered and may include some crash demos caused by instability during rendering in Omnigibson. We recommend performing the rendering process independently for optimal results.) 
 
 <div align=center>
-  <img src=./assets/datapoint.png />
+  <img src=https://github.com/ariesssxu/preference-based-planning/raw/main/assets/datapoint.png>
 </div>
+
 A demonstration includes an egocentric video of agent activity, a bird's-eye-view map tracking agent position, and frame-level action annotations. We also provide third-person view recordings for enhanced visualization. 
 
 We prioritize the egocentric perspective for two reasons: 1) it offers a clear view with minimal occlusions, and 2) it aligns with human perception, facilitating transfer to real-world data from head-mounted devices.
